@@ -1,0 +1,136 @@
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar {
+    background-color: #ef6969;
+    color: #ef6969;
+    clear: both;
+    border-bottom: 2px solid #EF6969;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: #ad3232;
+}
+
+.navbar-nav .active a {
+    color: white;  
+    font-weight: 500;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 0.88rem;
+    padding:1rem;
+    text-decoration: none;
+}
+
+.logout-btn{
+    color: white !important;
+    border-color:white!important;
+}
+
+
+
+.page-container{
+    padding-bottom: 50px;
+}
+
+.posts-container{
+    height: 720px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.upload-btn, .post-card-btn, .download-btn{
+    background-color: #ef6969 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.upload-btn:hover, .post-card-btn:hover, .download-btn:hover{
+    background-color: #f34949 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.posts-container{
+    height: 720px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.post-header{
+    color: #ef6969;
+    background-color: white;
+    font-family: 'Roboto Black';
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+.post-title{
+    color: #ef6969;
+    font-family: 'Roboto Medium';
+    font-size: 18px;
+}
+
+.post-body{
+    font-family: 'Roboto Light';
+    font-size: 16px;
+    white-space: pre-wrap;
+}
+
+
+.upload-form-heading, .delete-document-heading{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.upload-form-label, .delete-document-form-label{
+    font-family: 'Montserrat' !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.upload-form-field, .delete-document-form-field{
+    font-family: 'Montserrat' !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+
+.create-btn, .search-btn, .post-card-btn, .delete-post-btn{
+    background-color: #ef6969 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.create-btn:hover, .search-btn:hover, .post-card-btn:hover, .delete-post-btn:hover{
+    background-color: #f34949 !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.upload-form-btn{
+    background-color: #ef6969 !important;
+    color: white !important;
+    border-color: white !important;
+    width: 190px;
+    height: 50px;
+}
+
+.upload-form-btn:hover{
+    background-color: #f34949 !important;
+    color: white !important;
+    border-color: white !important;
+}

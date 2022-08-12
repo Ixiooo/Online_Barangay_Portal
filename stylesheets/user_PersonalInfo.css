@@ -1,0 +1,73 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    margin:0;
+}
+
+/* --------    HEADER    --------  */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar {
+    background-color: #ef6969;
+    color: #ef6969;
+    clear: both;
+    border-bottom: 2px solid #EF6969;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: #ad3232;
+}
+
+.navbar-nav .active a {
+    color: white;  
+    font-weight: 500;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 0.88rem;
+    padding:1rem;
+    text-decoration: none;
+}
+
+.logout-btn{
+    color: white !important; 
+    border-color: white !important; 
+}
+
+
+
+
+
+/*****   EXTRA LARGE SCREEN *****/
+@media (max-width: 1200px) {
+    
+}
+
+/*****   LARGE SCREEN   *****/
+@media (min-width: 992px) {
+    #b-left {
+        border-left: 1px solid #000;
+    }
+}
+
+/*****   MEDIUM SCREEN   *****/
+@media (max-width: 768px) {
+    #heroarea {
+        text-align: center;
+    }
+}
+
+/*****   SMALL SCREEN   *****/
+@media (max-width: 576px) {
+
+}

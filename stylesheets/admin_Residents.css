@@ -1,0 +1,162 @@
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar {
+    background-color: #ef6969;
+    color: #ef6969;
+    clear: both;
+    border-bottom: 2px solid #EF6969;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: #ad3232;
+}
+
+.navbar-nav .active a {
+    color: white;  
+    font-weight: 500;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 0.88rem;
+    padding:1rem;
+    text-decoration: none;
+}
+
+
+.resident-table{
+    text-align: center;
+}
+
+.resident-table-heading{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+
+.resident-table td{
+    vertical-align: middle;
+}
+
+.logout-btn{
+    color: white;
+    border-color: white;
+}
+
+.add-btn{
+    background-color: #ef6969;
+    color: white;
+    border-color: white;
+}
+
+.add-btn:hover{
+    background-color: #f34949;
+    color: white;
+    border-color: white;
+}
+
+.search-btn{
+    background-color: #ef6969;
+    color: white;
+    border-color: white;
+}
+
+.search-btn:hover{
+    background-color: #f34949;
+    color: white;
+    border-color: white;
+}
+
+.add-resident-btn, .edit-resident-btn, .delete-resident-btn{
+    background-color: #ef6969;
+    color: white;
+    border-color: white;
+    width: 190px;
+    height: 50px;
+}
+
+.add-resident-btn:hover, .edit-resident-btn:hover, .delete-resident-btn:hover{
+    background-color: #f34949;
+    color: white;
+    border-color: white;
+}
+
+.table-btn, .table-btn-anchor{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.table-btn:hover{
+    background-color: #f34949;
+    color: white;
+    border: none;
+}
+
+.add-resident-heading, .edit-resident-heading, .delete-resident-heading{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.add-resident-form-label, .edit-resident-form-label,  .delete-resident-form-label{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.add-resident-form-field, .edit-resident-form-field, .delete-resident-form-field{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.delete-resident-prompt{
+    font-family: 'Arial';
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.delete-resident-name-field{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.resident-table-container{
+    height: 600px;
+}
+
+.resident-table-div{
+    height: 600px;
+}
+
+
+/* CSS For Dropdown icon */
+.admin-text{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#ddown li a {
+    color: #000 !important;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#ddown {
+    background-color: #ef6969 !important;
+    border: none;
+}

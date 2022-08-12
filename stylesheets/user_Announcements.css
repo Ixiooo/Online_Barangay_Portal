@@ -1,0 +1,90 @@
+/* Nav Bar CSS */
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar {
+    background-color: #ef6969;
+    color: #ef6969;
+    clear: both;
+    border-bottom: 2px solid #EF6969;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: #ad3232;
+}
+
+.navbar-nav .active a {
+    color: white;  
+    font-weight: 500;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 0.88rem;
+    padding:1rem;
+    text-decoration: none;
+}
+
+.logout-btn{
+    color: white !important; 
+    border-color: white !important; 
+}
+
+/* Nav Bar CSS */
+
+.posts-container{
+    height: 720px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.post-header{
+    color: #ef6969;
+    background-color: white;
+    font-family: 'Roboto Black';
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+.post-title{
+    color: #ef6969;
+    font-family: 'Roboto Medium';
+    font-size: 18px;
+}
+
+.post-body{
+    font-family: 'Roboto Light';
+    font-size: 16px;
+    white-space: pre-wrap;
+}
+
+.page-container{
+    padding-bottom: 200px;
+}
+
+.post-card-btn, .officials-table-btn{
+    background-color: #ef6969;
+    color: white;
+    border: none;
+}
+
+.post-card-btn:hover{
+    background-color: #f34949;
+    color: white;
+    border: none;
+}
+
+.post-btn-anchor{
+    display: inline-block;
+}
